@@ -8,7 +8,7 @@ Tiny C daemon that listens on a UDP broadcast port and re-emits packets onto oth
 
 - Plain C. Single source file (`udp-broadcast-relay.c`).
 - `Makefile` (no autotools). Debian packaging in `debian/`.
-- License: GPL-2.0 (per `COPYING`).
+- License: GPL-2.0.
 
 ## Build / test / run
 
@@ -25,6 +25,8 @@ Runtime: `systemctl start udp-broadcast-relay@<id>.service` after configuring `/
 - `udp-broadcast-relay.8` — man page.
 - `udp-broadcast-relay.default`, `udp-broadcast-relay@.service`, `ppp-if.up-local` — configuration / integration files.
 - `Makefile`, `debian/`.
+- `README.md` — install/usage/example documentation.
+- `COPYING` — GPL-2.0 license text.
 
 ## Cross-repo context
 
