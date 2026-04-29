@@ -44,7 +44,3 @@ Mirror twin: `VyOS-Networks/udp-broadcast-relay`. Canonical side is here. Mirror
 
 - `Makefile` builds with `-O0` deliberately for debuggability; if you change CFLAGS, check the Debian package still passes lintian.
 - Single file means changes touch the whole daemon; coordinate with `vyos-1x` if the CLI surface changes.
-
----
-
-This file is mirrored on Confluence: [`vyos/udp-broadcast-relay`](https://internal.confluence.vyos.com/wiki/spaces/VYOS/pages/817889537). The Confluence page also carries the per-repo audit data (settings, workflows, secret counts, hygiene) that complements this CLAUDE.md. Edit either side; resync via the documentation pipeline.
